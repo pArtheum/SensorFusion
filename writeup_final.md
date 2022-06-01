@@ -2,6 +2,8 @@
 
 This project is intended to implement a real use case of sensor fusion system using both Camera and Lidar sensors
 
+Tracking video can be found in results/my_tracking_results.zip
+
 ### 1. Write a short recap of the four tracking steps and what you implemented there (filter, track management, association, camera fusion). Which results did you achieve? Which part of the project was most difficult for you to complete, and why?
 
 During first phase of the project, an Extended Kalman Filter to track a single target using only lidar measurement is implemented. We uses Root Mean Square Error to asses system performances. The following chart presents the RMSE results.
